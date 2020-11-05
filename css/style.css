@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  font-family: 'Roboto', 'Noto Sans TC', "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+/*
+Roboto
+    light: 300
+    regular: 400
+    medium: 500
+
+Noto Sans TC
+    light: 300
+    regular: 400
+    medium: 500
+
+*/
+body {
+  font-size: 24px;
+}
+
+.fz-sm {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.l-blockSm {
+  margin-top: 48px;
+}
+
+.l-block {
+  margin-top: 72px;
+}
+
+.heading {
+  font-size: 80px;
+  line-height: 94px;
+  padding-bottom: 17px;
+  margin-top: 47px;
+  border-bottom: 2px solid #000;
+}
+
+.avator {
+  margin-top: 48px;
+}
+
+.info .title {
+  font-size: 32px;
+  vertical-align: top;
+  line-height: 45px;
+  font-weight: 500;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+}
+
+.info .title--titleLineSm {
+  max-width: 996px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.info .title .subtitle {
+  margin-left: 16px;
+  font-size: 24px;
+  vertical-align: top;
+  color: #a00404;
+}
+
+.info .content {
+  margin-top: 16px;
+}
+
+.info .paragraph {
+  line-height: 1.5;
+}
+
+.info .paragraph + .paragraph {
+  margin-top: 1em;
+}
+
+.info .list {
+  line-height: 1.5;
+}
+
+.info--fill {
+  background-color: #415165;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0 36px;
+}
+
+.info--fill .title {
+  border-bottom-color: #fff;
+}
+
+.info--fill .title .subtitle {
+  color: #fff;
+}
+
+.info--fill .list {
+  display: inline-block;
+  margin-top: 32px;
+}
+
+.info--fill .list .item {
+  font-weight: 300;
+}
+
+.info--fill .list .item + .item {
+  margin-top: 16px;
+}
+
+.info--fill .list--alignLeft {
+  margin-top: 40px;
+  padding-left: 24px;
+  border-left: 1px solid #fff;
+}
+
+.info--fill .list--alignLeft .item {
+  text-align: left;
+}
+
+.info--fill .list--alignLeft .item + .item {
+  margin-top: 20px;
+}
+
+.info--fill .logoList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 16px;
+}
+
+.info--fill .logoList .item + .item {
+  margin-left: 24px;
+}
+
+.info--fill a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.info--complex .content {
+  margin-left: 22px;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+
+.info--complex .list {
+  margin-top: 24px;
+}
+
+.info--complex .list .item + .item {
+  margin-top: 24px;
+}
+
+.info--complex .paragraph {
+  margin-top: 8px;
+  width: 55%;
+  font-size: 20px;
+}
+
+.info--complex .paragraph:first-child {
+  margin-top: 0;
+}
+
+.info--complex .img {
+  margin-top: 8px;
+  width: 90px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
